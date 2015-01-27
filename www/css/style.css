@@ -1,0 +1,213 @@
+@font-face {
+	font-family: 'thsfont';
+	src:url('fonts/thsfont.eot?-da50qx');
+	src:url('fonts/thsfont.eot?#iefix-da50qx') format('embedded-opentype'),
+		url('fonts/thsfont.woff?-da50qx') format('woff'),
+		url('fonts/thsfont.ttf?-da50qx') format('truetype'),
+		url('fonts/thsfont.svg?-da50qx#thsfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="thsicon-"], [class*=" thsicon-"] {
+	font-family: 'thsfont';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.thsicon-sunrise:before {
+	content: "\e600";
+}
+
+.thsicon-sun:before {
+	content: "\e601";
+}
+
+.thsicon-moon:before {
+	content: "\e602";
+}
+
+.thsicon-sun2:before {
+	content: "\e603";
+}
+
+.thsicon-windy:before {
+	content: "\e604";
+}
+
+.thsicon-wind:before {
+	content: "\e605";
+}
+
+.thsicon-snowflake:before {
+	content: "\e606";
+}
+
+.thsicon-cloudy:before {
+	content: "\e607";
+}
+
+.thsicon-cloud:before {
+	content: "\e608";
+}
+
+.thsicon-weather:before {
+	content: "\e609";
+}
+
+.thsicon-weather2:before {
+	content: "\e60a";
+}
+
+.thsicon-weather3:before {
+	content: "\e60b";
+}
+
+.thsicon-lines:before {
+	content: "\e60c";
+}
+
+.thsicon-cloud2:before {
+	content: "\e60d";
+}
+
+.thsicon-lightning:before {
+	content: "\e60e";
+}
+
+.thsicon-lightning2:before {
+	content: "\e60f";
+}
+
+.thsicon-rainy:before {
+	content: "\e610";
+}
+
+.thsicon-rainy2:before {
+	content: "\e611";
+}
+
+.thsicon-windy2:before {
+	content: "\e612";
+}
+
+.thsicon-windy3:before {
+	content: "\e613";
+}
+
+.thsicon-snowy:before {
+	content: "\e614";
+}
+
+.thsicon-snowy2:before {
+	content: "\e615";
+}
+
+.thsicon-snowy3:before {
+	content: "\e616";
+}
+
+.thsicon-weather4:before {
+	content: "\e617";
+}
+
+.thsicon-cloudy2:before {
+	content: "\e618";
+}
+
+.thsicon-cloud3:before {
+	content: "\e619";
+}
+
+.thsicon-lightning3:before {
+	content: "\e61a";
+}
+
+.thsicon-sun3:before {
+	content: "\e61b";
+}
+
+.thsicon-moon2:before {
+	content: "\e61c";
+}
+
+.thsicon-cloudy3:before {
+	content: "\e61d";
+}
+
+.thsicon-cloud4:before {
+	content: "\e61e";
+}
+
+.thsicon-cloud5:before {
+	content: "\e61f";
+}
+
+.thsicon-lightning4:before {
+	content: "\e620";
+}
+
+.thsicon-rainy3:before {
+	content: "\e621";
+}
+
+.thsicon-rainy4:before {
+	content: "\e622";
+}
+
+.thsicon-windy4:before {
+	content: "\e623";
+}
+
+.thsicon-windy5:before {
+	content: "\e624";
+}
+
+.thsicon-snowy4:before {
+	content: "\e625";
+}
+
+.thsicon-snowy5:before {
+	content: "\e626";
+}
+
+.thsicon-weather5:before {
+	content: "\e627";
+}
+
+.thsicon-cloudy4:before {
+	content: "\e628";
+}
+
+.thsicon-lightning5:before {
+	content: "\e629";
+}
+
+.thsicon-thermometer:before {
+	content: "\e62a";
+}
+
+.thsicon-compass:before {
+	content: "\e62b";
+}
+
+.thsicon-none:before {
+	content: "\e62c";
+}
+
+.thsicon-Celsius:before {
+	content: "\e62d";
+}
+
+.thsicon-Fahrenheit:before {
+	content: "\e62e";
+}
+
