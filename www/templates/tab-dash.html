@@ -3,14 +3,31 @@
     <div class="list card">
       <div class="item item-divider">Recent Updates</div>
       <div class="item item-body">
-        <div>
-          There is a fire in <b>sector 3</b>
+          <div class="list">
+
+              <div class="item item-button-right"  ng-click="onClick(0)">
+
+                  <span  ng-class= "{'thsicon-cloudy':currentId!==0,'thsicon-cloudy3':currentId==0}" style="color: #0c63ee;font-size: 60px" ></span>
+
+              </div>
+              <div class="item item-button-right" ng-click="onClick(1)"  >
+
+                  <span     ng-class= "{'thsicon-sun':currentId!==1,'thsicon-sun3':currentId==1}" style="color: #0c63ee;font-size: 60px" ></span>
+              </div>
+
+              <div class="item item-button-right" ng-click="onClick(2)" >
+
+                  <span     ng-class= "{'thsicon-cloud':currentId!==2,'thsicon-cloud4':currentId==2}" style="color: #0c63ee;font-size: 60px" ></span>
+
+              </div>
+
+              <div class="item item-button-right" ng-click="onClick(3)">
+                  <span     ng-class= "{'thsicon-weather4':currentId1!==3,'thsicon-weather5':currentId==3}" style="color: #0c63ee;font-size: 60px" ></span>
+
+              </div>
 
 
-
-
-
-        </div>
+          </div>
       </div>
     </div>
     <div class="list card">

@@ -1,6 +1,17 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope) {
+
+        $scope.currentId=0; /*控制 图标样式*/
+
+        $scope.onClick=function(id){
+            $scope.currentId=id;
+
+        };
+
+
+
+    })
 
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
