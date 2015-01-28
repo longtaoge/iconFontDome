@@ -4,59 +4,45 @@ Each tab's child <ion-nav-view> directive will have its own
 navigation history that also transitions its views in and out.
 -->
 <ion-tabs class="tabs-icon-top tabs-color-active-positive">
-<!-- 说明  ion-tab 中切换效果，由CSS样式 和 ion-tab 指令中的  icon-off （选中） 及 icon-on（非选中） 属性控制，  将这两个属性换成自定义的的字体图标样式即可 -->
+    <!-- 说明  ion-tab 中切换效果，由CSS样式 和 ion-tab 指令中的  icon-off （选中） 及 icon-on（非选中） 属性控制，  将这两个属性换成自定义的的字体图标样式即可 -->
 
-  <!-- Dashboard Tab -->
-  <ion-tab title="雪" icon-off="thsicon-snowy" icon-on="thsicon-snowy5" href="#/tab/dash">
-  <ion-nav-view name="tab-dash"></ion-nav-view>
-  </ion-tab>
+    <!-- Dashboard Tab -->
+    <ion-tab title="雪" icon-off="thsicon-snowy" icon-on="thsicon-snowy5" href="#/tab/dash">
+        <ion-nav-view name="tab-dash"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="雨" icon-off="thsicon-weather4" icon-on="thsicon-weather5" href="#/tab/chats">
+        <ion-nav-view name="tab-chats"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="晴" icon-off="thsicon-sun" icon-on="thsicon-sun3" href="#/tab/friends">
+        <ion-nav-view name="tab-friends"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="多云" icon-off="thsicon-cloudy" icon-on="thsicon-cloudy3" href="#/tab/account">
+        <ion-nav-view name="tab-account"></ion-nav-view>
+    </ion-tab>
 
 
-
-      <ion-tab title="雨" icon-off="thsicon-weather4" icon-on="thsicon-weather5" href="#/tab/chats">
+    <!-- Chats Tab -->
+    <!--
+      <ion-tab title="Chats" icon-off="ion-ios7-chatboxes-outline" icon-on="ion-ios7-chatboxes" href="#/tab/chats">
         <ion-nav-view name="tab-chats"></ion-nav-view>
       </ion-tab>
+    -->
 
-
-     <ion-tab title="晴" icon-off="thsicon-sun" icon-on="thsicon-sun3" href="#/tab/friends">
+    <!-- Friends Tab -->
+    <!-- <ion-tab title="Friends" icon-off="ion-ios7-heart-outline" icon-on="ion-ios7-heart" href="#/tab/friends">
        <ion-nav-view name="tab-friends"></ion-nav-view>
      </ion-tab>
+   -->
 
-
-      <ion-tab title="多云" icon-off="thsicon-cloudy" icon-on="thsicon-cloudy3" href="#/tab/account">
+    <!-- Account Tab -->
+    <!--
+      <ion-tab title="Account" icon-off="ion-ios7-gear-outline" icon-on="ion-ios7-gear" href="#/tab/account">
         <ion-nav-view name="tab-account"></ion-nav-view>
       </ion-tab>
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Chats Tab -->
-<!--
-  <ion-tab title="Chats" icon-off="ion-ios7-chatboxes-outline" icon-on="ion-ios7-chatboxes" href="#/tab/chats">
-    <ion-nav-view name="tab-chats"></ion-nav-view>
-  </ion-tab>
--->
-
-  <!-- Friends Tab -->
- <!-- <ion-tab title="Friends" icon-off="ion-ios7-heart-outline" icon-on="ion-ios7-heart" href="#/tab/friends">
-    <ion-nav-view name="tab-friends"></ion-nav-view>
-  </ion-tab>
--->
-
-  <!-- Account Tab -->
-<!--
-  <ion-tab title="Account" icon-off="ion-ios7-gear-outline" icon-on="ion-ios7-gear" href="#/tab/account">
-    <ion-nav-view name="tab-account"></ion-nav-view>
-  </ion-tab>
--->
+    -->
 
 
 </ion-tabs>
